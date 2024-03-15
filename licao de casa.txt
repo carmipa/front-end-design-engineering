@@ -1,0 +1,6 @@
+apostila git apartir da pag 26 até o clone:
+1- crie um arquivo de nome readme.md
+2 - adicione informações sobre você neste arquivo
+3 - edite o arquiv utilizando a linguagem de marcação mark down "dilinger
+
+utilize como base de referencia os seguintes dillinger.io
