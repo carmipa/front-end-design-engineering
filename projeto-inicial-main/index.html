@@ -1,77 +1,80 @@
-<!DOCTYPE html><! Este é p DTD do HTML 5. -->
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta name ="viewport" content="width=device-width, inicial-scale=1.0">
-		
-		<title>
-			Projeto Inicial Index.html
-		</title>
-	</head>
-	<body>
-		<!--Este é um cometário em HTML. -->
-		<div class="container">
-			<header class="cabecalho">
-					<h1 style="text-align: center">Minha Página</h1>
-						<nav>
-							<ul><!-- Unordered List / lista não ordenada-->
-								<li><a href="./paginal/help.html"><img src="./img/chamada-de-ajuda.png" alt="interrogação" width="5%"></a></li>
-								<li><a href="https://www.google.com/">Item - 2</a></li>
-								<li><a href="https://github.com">Item - 3</a></li>
-								<li><a href="../projeto-inicial/index.html">voltar</a></li>
-							</ul>
-						</nav>
-						[22:46] Alexandre Carlos de Jesus
-						<header>
-							
-						</header>
-						<!--[22:46] Alexandre Carlos de Jesus header>nav>ul>li*3>a[href="#"]{Item - $}-->
-				
-			</header>
-			<section class="conteudo">
-				<div>
-					<h2>HELP</h2>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora exercitationem reprehenderit fugiat, amet distinctio nesciunt ab vero vitae suscipit asperiores repudiandae quam facere harum neque soluta odit aspernatur impedit commodi ipsa labore! Dignissimos beatae omnis totam dolorem, sit commodi quis neque non magnam, consectetur placeat quasi suscipit voluptas. Aspernatur, ipsum. Saepe dolorum illo nulla mollitia sint cupiditate iure, quasi ipsam laboriosam officiis illum obcaecati laborum ratione tenetur quo repellat temporibus reiciendis facere cum ea ducimus a aspernatur? Quas possimus, vero cumque blanditiis iusto impedit, minima tenetur repellendus voluptatum sapiente, id eligendi tempora quis accusamus nihil culpa consectetur veniam ab.
-						<a href="#">mais....</a>
-					</p>
-				</div>
-				<div>
-					<h2>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente libero, corporis porro ab magni itaque eum repellat ad ratione?	
-							<a href="#">mais....</a>					
-						</p>
-					</h2>
-				</div>
-				<div>
-					<h2>CONTACT</h2>
-						<form>
-							<fieldset>
-								<legend>Customer Data</legend>
-								<div>
-									<label for="idNm">Nome:</label>
-									<input type="text" name="txtNm" id="idNm" placeholder="Digite seu nome.">
-								</div>
-								<div>
-									<label for="idEmail">Email:</label>
-									<label type="email" name=""txtEmail id=""></label>
-								</div>
-							</fieldset>
-						</form>
-				</div>
-			</section>
-			<footer>
-				<nav>
-					<ul>
-						<li><a href="https://www2.fiap.com.br/">Item - 1</a></li>
-						<li><a href="https://www.google.com/">Item - 2</a></li>
-						<li><a href="https://github.com">Item - 3</a></li>
-					</ul>
-				</nav>
-				<p>Todos os direitos reservado &copy; - inha Página 2024</p>
-			</footer>
-		</div>
+<!-- Este é um comentário em HTML. -->
+<!DOCTYPE html>
+<!-- Este é o DTD do HTML 5. -->
 
-	</body>
-</html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Básica</title>
+  </head>
+  <body>
+    <span id="topo"></span>
+    <div class="container">
+      <header class="cabecalho">
+        <h1 style="text-align: center; border: solid 2px #ff0000">
+          Minha Página
+        </h1>
+
+        <nav>
+          <ul>
+            <li> <a href="./paginas/help.html"><img src="./img/question.png" alt="Interrogação" width="5%"> </a> </li>
+            <li><a href="./paginas/about.html"> <img src="./img/info.png" alt="Letra i dentro de um círculo" width="5%"> </a></li>
+            <li><a href="#contact"><img src="./img/contact.png" alt="Envelope com cartas." width="5%"></a></li>
+          </ul>
+        </nav>
+      
+      </header>
+
+      <section class="conteudo">
+        <div>
+          <h2>HELP</h2>
+          <p>Help - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit error vero asperiores ducimus veniam doloremque? Voluptates earum natus ex, doloremque vero in porro provident voluptatum cupiditate, quibusdam, officiis modi maxime quas dignissimos. Velit quae repellendus magnam nobis commodi adipisci itaque harum quos amet repellat laboriosam, voluptate eos nulla fuga perspiciatis quidem beatae sapiente pariatur maiores? Asperiores totam voluptatum error consequuntur et quisquam architecto! Officiis eius tempora animi! Saepe, alias fuga, ex possimus ipsum distinctio maxime porro doloribus officiis, quidem labore animi! Fugit placeat autem harum suscipit quasi perferendis, quam vero molestias! Sequi corporis ipsa repellat? Et consectetur ducimus tempora. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit facere perferendis accusamus ab aut incidunt sunt architecto exercitationem nesciunt molestiae tempore cupiditate corporis quisquam vel magnam maxime aperiam obcaecati iste, accusantium dolorum ipsa fuga ullam qui numquam? Officia quia eaque consequuntur.</p>
+          <a href="#">Mais...</a>
+        </div>
+        <div>
+          <h2>ABOUT</h2>
+          <p>About - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sequi fugiat provident repellat aliquam! Qui optio voluptatibus facilis voluptas soluta!</p>
+          <a href="#">Mais...</a>
+        </div>
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="idNm">Nome:</label>
+                <input type="text"  name="txtNm" id="idNm" placeholder="Digite seu nome."/>
+              </div>
+              <div>
+                <label for="idEmail">Email:</label>
+                <input type="email"  name="txtEmail" id="idEmail" placeholder="Digite seu email."/>
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+            <a href="#topo">Voltar</a>
+          </form>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <nav>
+          <!-- Unordered List-->
+          <ul>
+            <!-- List Item-->
+            <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
+            <li>
+              <a href="https://www.google.com.br" target="_blank">GOOGLE</a>
+            </li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+            <!-- List Item-->
+          </ul>
+        </nav>
+        <p>Todos os direitos reservados &copy; - Minha Página 2024</p>
+      </footer>
+
+    </div>
+  </body>
+</html>>
