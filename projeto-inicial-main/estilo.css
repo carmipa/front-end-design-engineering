@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+#cabecalho{
+    position: relative;
+    background-color: #1E2636;
+    height: 100px;
+    color: white;
+    background-image: url(../);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1{
+        float: left;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    nav{
+        float: right;
+        position: absolute;
+        right: 3%;
+        top: 40%;
+    }
+
+    .link{
+        display: inline;
+        a{
+            text-decoration: nome;
+            color: white;
+        }
+    }
+}
+
+#conteudo{
+    clear: both;
+}
